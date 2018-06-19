@@ -12,13 +12,13 @@
    <body>
 <h1>Nuevo Usuario</h1>
         <div class="main">
-        <form action="" id="formLg">
+        <form action="registrarusuario.php" method="post" id="formLg">
         
             <input type="text" name="nombre"  placeholder="Nombre" required>
-            <input type="text" name="cedula"  placeholder="Cedula" required>
-            <input type="text" name="mail"  placeholder="Mail" required>
-            <input type="password" name="pass"  placeholder="Contraseña" required>
-            <input type="password" name="pass"  placeholder="Confirmar Contraseña" required>
+            <input type="text" name="usuario"  placeholder="Usuario" required>
+            <input type="password" name="password"  placeholder="Contraseña" required>
+            <input type="text" name="tipo"  placeholder="Admin/Vendedor" required>
+            <input type="submit" class="botonlg"  value="Registrar" >
         
      </form>
      

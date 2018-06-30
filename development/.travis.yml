@@ -3,8 +3,3 @@ sudo: false
 cache: bundler
 rvm:
 - 7.0.9
-# Build all branches, *including* gh-pages:
-branches:
-  only:
-  - gh-pages
-  - /.*/

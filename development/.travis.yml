@@ -1,0 +1,8 @@
+language: php
+sudo: false
+cache: bundler
+rvm:
+- 7.0.9
+before_script:
+ - chmod +x build_travis.sh
+script: "./build_travis.sh"

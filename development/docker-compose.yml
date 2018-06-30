@@ -1,0 +1,47 @@
+version: ‘2’
+
+services:
+
+mysql:
+
+image: mysql
+
+container_name: app_mysql
+
+environment:
+
+MYSQL_ROOT_PASSWORD: root
+
+ports:
+
+– ‘3306:3306′
+
+volumes:
+
+– db:/var/lib/mysql
+
+php:
+
+image: php:7-apache
+
+container_name: app_php
+
+ports:
+
+– ’80:80’
+
+volumes:
+
+– ../app:/var/www/html
+
+depends_on:
+
+– mysql
+
+extra_hosts:
+
+– “local.app.com:127.0.0.1”
+
+volumes:
+
+db:

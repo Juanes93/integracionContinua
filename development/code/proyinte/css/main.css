@@ -10,9 +10,19 @@ html{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
-body{
+
+div.logo {
+	width: 50px;
+  margin: 0 auto; /*Se usa para centrar el contenido*/
+	
+}
+
+
+div.autentica {
 	background-image: url('../img/logo.jpg');
-	background-size: cover;
+	height: 100vh; /* Con 100vh la imagen toma el 100% de la ventana*/
+ 	background-position: top center; /*centra la imagen*/
+ 	background-size:cover; /*Ajusta un poco más la imagen*/
 }
 
 input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea {
@@ -68,11 +78,11 @@ input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hove
 
 .main{
     width: 30%;
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(134, 191, 241, 0.4);
     text-align: center;
-	border-radius: 5px;
-	margin: 17% auto 0 auto;
-	padding: 3%;
+		border-radius: 5px;
+		margin: 17% auto 0 auto;
+		padding: 3%;
     position: relative;
 }
 

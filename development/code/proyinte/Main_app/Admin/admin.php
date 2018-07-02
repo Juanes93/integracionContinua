@@ -10,7 +10,9 @@
           <script src="../../js/main.js"></script>
    </head>
    <body>
-<h1>Bienvenido Administrador</h1>
+<div class="integrantes">
+   <h2>Bienvenido Administrador</h2>
+</div>
         <div class="main">
         <form action="" id="formLg">
         <input type="text" name="cliente"  placeholder="Cliente" required>
@@ -32,9 +34,9 @@
            <option>Sugerencia</option>
           </select>
         <textarea  name="Mensaje" maxlength="1000" cols="25" rows="6" placeholder="Descripcion"></textarea>
-        
+
         <input type="submit" class="botonlg"  value="Reportar" >
      </form>
-     
+
    </body>
  </html>

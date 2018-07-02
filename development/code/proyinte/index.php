@@ -11,9 +11,40 @@
           <div class="logo">
               <img src="img/logo2.jpg" alt="logo pqrs">
           </div>
-          <div class="navegacion">
-
+          <div class="integrantes">
+              <h2>Integrantes:</h2>
           </div>
+          <div class="navegacion">
+                <nav>
+                 <ul>
+                   <li><a href="#">Juan Estevan valencia</a>
+                     <ul>
+                        <li><a href="#">Codigo: </a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">Fredy Molina Q.</a>
+                     <ul>
+                        <li><a href="#">Código: 1311600193</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">Luis Enrique Rodriguez</a>
+                     <ul>
+                        <li><a href="#">Código: 1311070992</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">Tatiana Velez Osorio</a>
+                     <ul>
+                        <li><a href="#">Código: 1721981944</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">Pedro Luis Pereira</a>
+                     <ul>
+                        <li><a href="#">Código: 1721982984</a></li>
+                      </ul>
+                   </li>
+                 </ul>
+               </nav>
+          </div> <!--navegacion-->
           <div class="hero">
             <div class="contenido-header">
               <div class="autentica">
@@ -26,7 +57,7 @@
                     <input type="password" name="passlg"  placeholder="Contraseña" required>
                     <input type="submit" class="botonlg"  value="Iniciar Sesion" >
                   </form>
-                </div>
+                </div> <!--main-->
               </div> <!--autentica-->
             </div> <!--contenido-header-->
           </div> <!--hero-->

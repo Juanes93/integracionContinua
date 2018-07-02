@@ -12,11 +12,78 @@ html{
 }
 
 div.logo {
-	width: 50px;
+	width: 100px;
   margin: 0 auto; /*Se usa para centrar el contenido*/
-	
 }
 
+div.integrantes {
+	margin: 0 auto; /*Se usa para centrar el contenido*/
+	background-color: red;
+	width: 200px;
+	margin-top: 10px;
+}
+
+div.integrantes h2 {
+	margin: 0 auto; /*Se usa para centrar el contenido*/
+	color: white;
+	width: 200px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/**Navegación**/
+.navegacion {
+  background-color: red;
+}
+nav {
+  width: 1400px;
+  margin: 0 auto;
+  position: relative; /*los hijos deben tener position absolute*/
+}
+
+nav ul {
+  list-style: none; /*Elimina las viñetas en las listas*/
+}
+
+nav > ul > li { /*Así seleccionamos el 1er nivel de ul y li*/
+float: left;
+}
+
+nav ul::after { /*forma de limpiar el nav*/
+  content: '';
+  display: block;
+  clear: both;
+}
+
+nav ul li a { /*para los enlaces*/
+  display: inline-block; /*pemite elegir un ancho*/
+  width: 180px;
+  color: #ffffff; /*blanco*/
+  text-decoration: none; /*quita la decoración del enlace*/
+  text-align: center; /*Para centrar los enlaces*/
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  background-color: #00b8e4; /*cambia el color del enlace al pasar el puntero*/
+}
+
+/**Segundo nivel**/
+
+nav ul ul {
+  position: absolute; /*es hijo de del nav, el cual tiene position relative*/
+  top: 100%;
+  background-color: rgba(0, 184,228, 0.7);
+  display: none;
+}
+
+nav ul li:hover > ul { /*muestra el primer hijo*/
+  display: block;
+}
+
+nav ul li:hover { /*hace que al seleccionar se conserve el color */
+  background-color: rgba(0, 184, 228, 0.7);
+}
 
 div.autentica {
 	background-image: url('../img/logo.jpg');
@@ -81,7 +148,7 @@ input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hove
     background-color: rgba(134, 191, 241, 0.4);
     text-align: center;
 		border-radius: 5px;
-		margin: 17% auto 0 auto;
+		margin: 5% auto 0 auto;
 		padding: 3%;
     position: relative;
 }

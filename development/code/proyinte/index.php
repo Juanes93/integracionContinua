@@ -17,9 +17,9 @@
           <div class="navegacion">
                 <nav>
                  <ul>
-                   <li><a href="#">Juan Estevan valencia</a>
+                   <li><a href="#">Juan Estevan Valencia</a>
                      <ul>
-                        <li><a href="#">Codigo: </a></li>
+                        <li><a href="#">Codigo: 1721023809</a></li>
                       </ul>
                    </li>
                    <li><a href="#">Fredy Molina Q.</a>
